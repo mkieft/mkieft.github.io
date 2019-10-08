@@ -1,41 +1,33 @@
 body {
+  background-color: #eeeeee; /*light grey */
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #1e1e1e; /*dark grey*/
   margin: 60px auto;
   width: 70%;
 }
-nav ul, footer ul{
-  font-family: 'Helvetica', 'Arial', 'Sans-Serif';
-  padding: 0px;
-  list-style: none;
-  font-weight: bold;
+h1, h2, h3, h4, h5, h6{ 
+  font-family: Georgia, serif;
+  font-style: italic;
+  color: #004060;
 }
-nav ul li, footer ul li{
-  display: inline;
-  margin-right: 20px;
+h1{
+  background-color: #004060;
+  color: #ffffff;
+  padding: 4px 8px;
 }
-a{
+a, a:visited {
+  color: #006699;
   text-decoration: none;
-  color: #999;
 }
 a:hover{
   text-decoration: underline;
 }
-h1{
-  font-size: 3em;
-  font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+ul{
+  list-style-type: circle;
+  color: #004060;
+  font-size: 16px;
+  font-weight: bold;
 }
-p{
-  font-size: 1.5em;
-  line-height: 1.4em;
-  color: #333;
-}
-footer{
-  border-top: 1px solid #d5d5d5;
-  font-size: .8em;
-}
-ul.posts{
-  margin: 20px auto 40px;
-  font-size: 1.5em;
-}
-ul.posts li{
-  list-style: none;
-}
+
